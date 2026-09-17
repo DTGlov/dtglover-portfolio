@@ -1,3 +1,3 @@
 # Hubtel screenshots
 
-Add approved, sanitised screenshots here: Pay Small Small overview, upcoming repayments, repayment/top-up journey, and account overview. Avoid real personal information, balances, or private internal screens. Import files with Astro's Image component when integrating. Until supplied, the site uses editorial typography rather than invented app screenshots.
+The gallery currently uses `deposit.png` and `account-settings.png`. Screenshots that showed a Ghana Card number or other personal account information were excluded. Add future screenshots only after checking that they contain no private data; import them with Astro's Image component.
