@@ -3,12 +3,16 @@ import Layout from '../../layouts/Layout.astro';
 import Icon from '../../components/Icon.astro';
 import Gallery from '../../components/Gallery.astro';
 import deposit from '../../assets/projects/hubtel/deposit.png';
+import account from '../../assets/projects/hubtel/account-home.png';
+import pssHome from '../../assets/projects/hubtel/pss-transactions.png';
 import accountSettings from '../../assets/projects/hubtel/account-settings.png';
 ---
 <Layout title="Pay Small Small at Hubtel — David Glover" description="Building the Flutter mobile implementation of Pay Small Small at Hubtel: account experiences, repayments, transaction history, and connected financial journeys.">
 <section class="case-hero"><a class="back-link" href="/#work">← Back to selected work</a><p class="eyebrow">HUBTEL / PROFESSIONAL WORK</p><h1>Everyday credit.<br /><span class="blue">Thoughtfully connected.</span></h1><p class="case-lead">Building the mobile implementation of Pay Small Small—and connecting the details that make a financial experience feel coherent.</p><dl class="case-facts"><div><dt>Role</dt><dd>Mobile Product Engineer</dd></div><div><dt>Platform</dt><dd>Hubtel consumer app</dd></div><div><dt>Technology</dt><dd>Flutter · Dart</dd></div><div><dt>Status</dt><dd>In production</dd></div></dl></section>
 <div class="case-banner hubtel-cover"><div><img class="case-brand hubtel-brand" src="/images/brands/hubtel.png" alt="Hubtel" width="303" height="192" /><h2>Purchase. Repay.<br />Keep track.</h2></div><p>One connected mobile experience for Pay Small Small.</p></div>
 <Gallery label="A CLOSER LOOK" title="Inside the Hubtel app" items={[
+  { src: account, alt: 'Account home showing Pay Small Small Card', title: 'Account home', detail: 'Account home flow' },
+   { src: pssHome, alt: 'Pay Small Small transactions page', title: 'Pay Small Small Transactions Page', detail: 'Pay Small Small Transactions' },
   { src: deposit, alt: 'Pay Small Small deposit screen showing a zero balance and a payment authorisation button', title: 'Add funds', detail: 'Pay Small Small deposit flow' },
   { src: accountSettings, alt: 'Hubtel account settings showing verification, appearance themes, and account actions', title: 'Account controls', detail: 'Settings and account access' },
 ]} />
