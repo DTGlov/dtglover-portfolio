@@ -12,7 +12,11 @@ npm run dev
 npm run check
 npm run build
 npm run preview
+npm run format:astro
+npm run format:astro:check
 ```
+
+The repository configures Prettier for `.astro` files. With the Astro and Prettier editor extensions installed, saving an Astro file formats it automatically. `npm run format:astro` formats the existing Astro files from the terminal.
 
 ## Structure
 
