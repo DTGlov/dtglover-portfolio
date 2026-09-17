@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Navy rounded square background -->
+  <rect width="512" height="512" rx="112" ry="112" fill="#0E1A2E" />
+
+  <!-- Cowrie shell body — centered, scaled to ~340x486 within 512 -->
+  <ellipse cx="256" cy="256" rx="140" ry="200" fill="#D4A017" />
+
+  <!-- Central spine -->
+  <path d="M 256 62 Q 256 256 256 450"
+    stroke="#0E1A2E" stroke-width="26" fill="none" stroke-linecap="round" />
+
+  <!-- Left ribs -->
+  <path d="M 256 122 L 236 162 M 256 182 L 236 222 M 256 242 L 236 282 M 256 302 L 236 342"
+    stroke="#0E1A2E" stroke-width="16" stroke-linecap="round" />
+
+  <!-- Right ribs -->
+  <path d="M 256 122 L 276 162 M 256 182 L 276 222 M 256 242 L 276 282 M 256 302 L 276 342"
+    stroke="#0E1A2E" stroke-width="16" stroke-linecap="round" />
+</svg>
