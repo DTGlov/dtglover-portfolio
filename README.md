@@ -23,8 +23,8 @@ npm run preview
 - `src/assets/projects/`: project screenshots supplied by David
 - `public/images/`: symbolic pixel character
 
-Screenshots have not been supplied yet. Current work covers are typography-led editorial compositions, not representations of either app's interface. See each asset folder's README for the requested images. No private source code or credentials from Hubtel or Sika are included.
+The Hubtel and Sika case studies include screenshots in scrollable, responsive galleries. Current work covers remain typography-led editorial compositions. Hubtel screenshots containing personal information were excluded. No private source code or credentials from Hubtel or Sika are included.
 
 Contact uses a mailto link. No database, contact-form service, analytics, or external font requests. Social links open normally. A custom domain and canonical URL can be configured when hosting is selected.
 
-GitHub Actions checks types and builds on pull requests and main pushes. Hosting is intentionally deferred. Work is on `feat/portfolio`; review and merge through a pull request.
+GitHub Actions checks types and builds on pull requests and main pushes. Hosting is intentionally deferred. Review and merge changes through pull requests.

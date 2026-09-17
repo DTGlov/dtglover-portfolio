@@ -1,3 +1,3 @@
 # Sika screenshots
 
-Add screenshots here: Home, Should I Buy response, recurring payment review, and savings goals. Include web and iOS where useful. Use demo data. Import files with Astro's Image component when integrating. The iOS version must remain labelled in development until launch is confirmed.
+The iOS gallery uses Home, transactions, accounts, goals, recurring commitments, and settings screenshots. Use demo data for future screenshots and import them with Astro's Image component. The iOS version must remain labelled in development until launch is confirmed.
