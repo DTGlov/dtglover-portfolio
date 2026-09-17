@@ -7,13 +7,17 @@
     "dev": "astro dev --host 127.0.0.1",
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
-    "check": "astro check"
+    "check": "astro check",
+    "format:astro": "prettier --write \"src/**/*.astro\"",
+    "format:astro:check": "prettier --check \"src/**/*.astro\""
   },
   "dependencies": {
     "astro": "7.3.3"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
+    "prettier": "3.9.7",
+    "prettier-plugin-astro": "1.0.1",
     "typescript": "^5.9.3"
   },
   "engines": {

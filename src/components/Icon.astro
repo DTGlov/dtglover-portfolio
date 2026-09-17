@@ -1,6 +1,26 @@
 ---
-interface Props { name?: 'arrow' | 'external' | 'mail' | 'code'; }
-const { name = 'arrow' } = Astro.props;
-const paths = { arrow: 'M4 12h16m-6-6 6 6-6 6', external: 'M7 17 17 7M7 7h10v10', mail: 'M3 6h18v12H3zM3 6l9 7 9-7', code: 'm8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16' };
+interface Props {
+  name?: "arrow" | "external" | "mail" | "code";
+}
+const { name = "arrow" } = Astro.props;
+const paths = {
+  arrow: "M4 12h16m-6-6 6 6-6 6",
+  external: "M7 17 17 7M7 7h10v10",
+  mail: "M3 6h18v12H3zM3 6l9 7 9-7",
+  code: "m8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16",
+};
 ---
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]} /></svg>
+
+<svg
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.6"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+>
+  <path d={paths[name]} />
+</svg>
